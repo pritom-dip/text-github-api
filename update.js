@@ -1,18 +1,16 @@
-
 const NavBar: FC = () => {
     const [pageSwtichButtons, setPageSwitchButtons] = useState(
       InitialPageSwitchButtons
     );
-    const [currentButton, setCurrentButton] = useState(
-      InitialPageSwitchButtons[0]
-    );
+dfsdfsd
   
     return (
         <div className="d-flex flex-row align-items-center navbar-desktop-right-content">
           {pageSwtichButtons.map((button) => {
-                      alt=""
                       className="navbar-page-switch-button-icon"
+                      kjkjnkjn
                     />
+                    kjnkjn
                     {button.name}
                   </div>
                 </Link>
