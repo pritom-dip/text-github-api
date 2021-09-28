@@ -3,7 +3,10 @@ const NavBar: FC = () => {
       InitialPageSwitchButtons
     );
 dfsdfsd
-  
+
+const[name,setName] = useState('');
+const[password, setPassword] = useState('');
+
     return (
         <div className="d-flex flex-row align-items-center navbar-desktop-right-content">
           {pageSwtichButtons.map((button) => {
